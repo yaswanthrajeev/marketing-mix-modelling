@@ -1,9 +1,49 @@
+# Marketing Mix Modeling (MMM) – Weekly Revenue Prediction
 
+This repository contains a reproducible notebook for **Marketing Mix Modeling (MMM)** using a 2-year weekly dataset.  
+The project focuses on predicting **Revenue** as a function of paid media, direct response levers, pricing, followers, and promotions.  
+We apply both **regularized regression (Ridge/LASSO)** and **tree-based models (XGBoost)**, while keeping a **causal perspective** on mediator effects.
 
- # Marketing Mix Modeling – Revenue Prediction
-
-This repository contains a reproducible notebook (`maeketing.ipynb`) and supporting code for building and evaluating machine learning models to explain and predict weekly **revenue** based on paid media, direct response levers, price, promotions, and other features.
 ---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/yourusername/marketing-model.git
+cd marketing-model
+```
+
+### 2. Install dependencies
+We recommend using a virtual environment.
+```bash
+pip install -r requirements.txt
+```
+
+**Key libraries used:**
+- pandas, numpy  
+- scikit-learn  
+- xgboost  
+- matplotlib, seaborn  
+
+### 3. Run the notebook
+Launch Jupyter and open the notebook:
+```bash
+jupyter notebook marketing.ipynb
+```
+
+---
+
+## 📂 Repository Structure
+```
+├── maeketing.ipynb    # Main reproducible notebook
+├── README.md          # Project documentation
+├── requirements.txt   # Python dependencies
+└── data/              
+```
+
+---
+
 
 ## 1. Data Preparation
 - **Weekly granularity:** Data is structured at the weekly level across ~2 years.  
@@ -80,8 +120,9 @@ This repository contains a reproducible notebook (`maeketing.ipynb`) and support
 
 ---
 
-## How to Reproduce
-1. Clone this repo and open `maeketing.ipynb`.  
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
+## 📜 License
+MIT License. Free to use and adapt.  
+
+---
+
+  
